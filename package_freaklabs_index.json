@@ -28,7 +28,7 @@
               {"name": "FreakLabs Freakduino Chibi 1284P 5V, 8 MHz, ATMega1284P"}, 
               {"name": "FreakLabs Freakduino Chibi 1284P Long Range 5V, 8 MHz, ATMega1284P"}
           ],
-        }
+        },
       ],
       "toolsDependencies": [
         {
