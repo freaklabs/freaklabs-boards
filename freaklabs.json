@@ -1,49 +1,45 @@
 {
-	"packages": [{
-		"name": "freaklabs",
-		"maintainer": "FreakLabs",
-		"websiteURL": "http://freaklabs.org",
-		"email": "support@freaklabsstore.com",
-		"help": {
-			"online": "http://freaklabs.org/forum"
-		},
-		"platforms": [{
-			"name": "FreakLabs AVR Boards",
-			"architecture": "avr",
-			"version": "1.0.0",
-			"category": "Freaklabs",
-			"url": "https://freaklabs.github.io/freaklabs-boards/boards/freaklabs-1.0.0.zip",
-			"archiveFileName": "freaklabs-1.0.0.zip",
-			"checksum": "SHA-256:e1b630f1b03d4cf9b4caf5abd99542822d4a0d1ef4a2172edbff5d2f9fdd11a5",	 
-			"size": "1048833",
-			"help": {
-				"online": "http://freaklabs.org/forum"
-			},
-			"boards": [{
-				"name": "FreakLabs Saboten Long Range 3.3V, 8 MHz, ATMega1284P"
-			}, {
-				"name": "FreakLabs FreakUSB-1284P 3.3V, 8 MHz, ATMega1284P"
-			}, {
-				"name": "FreakLabs FreakUSB-1284P Long Range 3.3V, 8 MHz, ATMega1284P"
-			}, {
-				"name": "FreakLabs Arashi Ethernet Gateway 5V, 8 MHz, ATMega1284P"
-			}, {
-				"name": "FreakLabs Arashi Ethernet Gateway Long Range 5V, 8 MHz, ATMega1284P"
-			}, {
-				"name": "FreakLabs Freakduino Chibi 1284P 5V, 8 MHz, ATMega1284P"
-			}, {
-				"name": "FreakLabs Freakduino Chibi 1284P Long Range 5V, 8 MHz, ATMega1284P"
-			}],
-			"toolsDependencies": [{
-				"packager": "arduino",
-				"name": "avr-gcc",
-				"version": "4.8.1-arduino5"
-			}, {
-				"packager": "arduino",
-				"name": "avrdude",
-				"version": "6.0.1-arduino5"
-			}]
-		}],	
-		"tools": []
-	}]
+  "packages": [
+    {
+      "name": "akafugu",
+      "maintainer": "Akafugu Corporation",
+      "websiteURL": "http://akafugu.jp/",
+      "email": "info@akafugu.jp",
+      "help": {
+        "online": "http://akafugu.jp"
+      },
+      "platforms": [
+        {
+          "name": "Akafugu Boards",
+          "architecture": "avr",
+          "version": "1.0",
+          "category": "Akafugu",
+          "url": "http://github.com/akafugu/akafugu_core/releases/download/1.0/akafugu-1.0.tar.bz2",
+          "archiveFileName": "akafugu-1.0.tar.bz2",
+          "checksum": "SHA-256:9c0585d97ff9ab4ee38a2d648d613559d241a14f9fbba5306c8c6a5857fa79b7",
+          "size": "6522",
+          "boards": [
+            {"name": "Akafugu Breadboard Adapter (Internal 8MHz Clock)"},
+            {"name": "Akafugu Breadboard Adapter (External 16MHz Clock)"},
+            {"name": "Akafuino L"},
+            {"name": "Akafugu SimpleClock"},
+            {"name": "Akafugu Nixie Clock"}
+          ]
+        }
+      ],
+      "toolsDependencies": [
+        {
+          "packager": "arduino",
+          "name": "avr-gcc",
+          "version": "4.8.1-arduino5"
+        },
+        {
+          "packager": "arduino",
+          "name": "avrdude",
+          "version": "6.0.1-arduino5"
+        }
+      ],
+      "tools": []
+    }
+  ]
 }
