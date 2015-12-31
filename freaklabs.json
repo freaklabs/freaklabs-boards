@@ -1,0 +1,48 @@
+{
+	"packages": [{
+		"name": "freaklabs",
+		"maintainer": "FreakLabs",
+		"websiteURL": "http://freaklabs.org",
+		"email": "support@freaklabsstore.com",
+		"help": {
+			"online": "http://freaklabs.org/forum"
+		},
+		"platforms": [{
+			"name": "FreakLabs AVR Boards",
+			"architecture": "avr",
+			"version": "1.0.0",
+			"category": "Freaklabs",
+			"archiveFileName": "freaklabs-1.0.0.zip",
+			"checksum": "SHA-256:e1b630f1b03d4cf9b4caf5abd99542822d4a0d1ef4a2172edbff5d2f9fdd11a5",	 
+			"size": "1048833",
+			"help": {
+				"online": "http://freaklabs.org/forum"
+			},
+			"boards": [{
+				"name": "FreakLabs Saboten Long Range 3.3V, 8 MHz, ATMega1284P"
+			}, {
+				"name": "FreakLabs FreakUSB-1284P 3.3V, 8 MHz, ATMega1284P"
+			}, {
+				"name": "FreakLabs FreakUSB-1284P Long Range 3.3V, 8 MHz, ATMega1284P"
+			}, {
+				"name": "FreakLabs Arashi Ethernet Gateway 5V, 8 MHz, ATMega1284P"
+			}, {
+				"name": "FreakLabs Arashi Ethernet Gateway Long Range 5V, 8 MHz, ATMega1284P"
+			}, {
+				"name": "FreakLabs Freakduino Chibi 1284P 5V, 8 MHz, ATMega1284P"
+			}, {
+				"name": "FreakLabs Freakduino Chibi 1284P Long Range 5V, 8 MHz, ATMega1284P"
+			}],
+			"toolsDependencies": [{
+				"packager": "arduino",
+				"name": "avr-gcc",
+				"version": "4.8.1-arduino5"
+			}, {
+				"packager": "arduino",
+				"name": "avrdude",
+				"version": "6.0.1-arduino5"
+			}]
+		}],	
+		"tools": []
+	}]
+}
