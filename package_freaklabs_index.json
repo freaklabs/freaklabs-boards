@@ -18,8 +18,7 @@
           "archiveFileName": "freaklabs-1.0.0.zip",
           "checksum": "SHA-256:e1b630f1b03d4cf9b4caf5abd99542822d4a0d1ef4a2172edbff5d2f9fdd11a5",
           "size": "1048833",
-          "boards": 
-          [
+          "boards": [
               {"name": "FreakLabs Saboten Long Range 3.3V, 8 MHz, ATMega1284P"}, 
               {"name": "FreakLabs FreakUSB-1284P 3.3V, 8 MHz, ATMega1284P"}, 
               {"name": "FreakLabs FreakUSB-1284P Long Range 3.3V, 8 MHz, ATMega1284P"}, 
@@ -27,8 +26,8 @@
               {"name": "FreakLabs Arashi Ethernet Gateway Long Range 5V, 8 MHz, ATMega1284P"}, 
               {"name": "FreakLabs Freakduino Chibi 1284P 5V, 8 MHz, ATMega1284P"}, 
               {"name": "FreakLabs Freakduino Chibi 1284P Long Range 5V, 8 MHz, ATMega1284P"}
-          ],
-        },
+          ]
+        }
       ],
       "toolsDependencies": [
         {
