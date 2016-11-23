@@ -83,7 +83,7 @@ freakduino.build.board=FREAKDUINO
 
 	freakduino.menu.ver.frk1284plr.build.mcu=atmega1284p
 	freakduino.menu.ver.frk1284plr.build.board=FREAKDUINO1284PLR
-	freakduino.menu.ver.frk1284plr.build.variant=freakduino-lr
+	freakduino.menu.ver.frk1284plr.build.variant=freakduino1284p-lr
 	
 ###############################################################
 ## FreakUSB
