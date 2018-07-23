@@ -236,7 +236,6 @@ saboten.bootloader.tool=arduino:avrdude
 saboten.bootloader.unlock_bits=0x3F
 saboten.bootloader.lock_bits=0x0F
 
-saboten.build.f_cpu=8000000L
 saboten.build.core=arduino:arduino
 saboten.build.board=SABOTEN
 
@@ -253,13 +252,14 @@ saboten.build.board=SABOTEN
 	saboten.menu.ver.sbtn.bootloader.extended_fuses=0xFE
 	saboten.menu.ver.sbtn.bootloader.file=optiboot/optiboot_1284p_8MHz_57.6k.hex
 
+	saboten.menu.ver.sbtn.build.f_cpu=8000000L
 	saboten.menu.ver.sbtn.build.mcu=atmega1284p
 	saboten.menu.ver.sbtn.build.variant=saboten
 	saboten.menu.ver.sbtn.build.board=SABOTEN
 
-	## Saboten 3G GPS 3.3V, 8 MHz, w/ATMega1284P
+	## Saboten 3G GPS 3.3V, 7.3728 MHz, w/ATMega1284P
 	## ---------------------------------------------
-	saboten.menu.ver.sbtn3g=Saboten 3G GPS, 3.3V, 8 MHz, w/ATMega1284P
+	saboten.menu.ver.sbtn3g=Saboten 3G GPS, 3.3V, 7.3728 MHz, w/ATMega1284P
 
 	saboten.menu.ver.sbtn3g.upload.maximum_size=126976
 	saboten.menu.ver.sbtn3g.upload.maximum_data_size=16384
@@ -270,6 +270,7 @@ saboten.build.board=SABOTEN
 	saboten.menu.ver.sbtn3g.bootloader.extended_fuses=0xFE
 	saboten.menu.ver.sbtn3g.bootloader.file=optiboot/optiboot_1284p_8MHz_57.6k.hex
 
+	saboten.menu.ver.sbtn3g.build.f_cpu=7372800L
 	saboten.menu.ver.sbtn3g.build.mcu=atmega1284p
 	saboten.menu.ver.sbtn3g.build.variant=saboten-3g-gps
 	saboten.menu.ver.sbtn3g.build.board=SABOTEN3GGPS
