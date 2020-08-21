@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "Freaklabs ATMega1284P Boards",
+          "name": "Freaklabs Standard Boards",
           "architecture": "avr",
           "version": "1.0.5",
           "category": "Freaklabs",
@@ -19,13 +19,9 @@
           "checksum": "SHA-256:e491a830dbb607715f6476a237f18ccfc881bab5368559f64d7bc3bca84e360f",
           "size": "1151464",
           "boards": [
-              {"name": "FreakLabs Saboten Long Range 3.3V, 8 MHz, ATMega1284P"}, 
-              {"name": "FreakLabs FreakUSB-1284P 3.3V, 8 MHz, ATMega1284P"}, 
-              {"name": "FreakLabs FreakUSB-1284P Long Range 3.3V, 8 MHz, ATMega1284P"}, 
-              {"name": "FreakLabs Arashi Ethernet Gateway 5V, 8 MHz, ATMega1284P"}, 
-              {"name": "FreakLabs Arashi Ethernet Gateway Long Range 5V, 8 MHz, ATMega1284P"}, 
-              {"name": "FreakLabs Freakduino Chibi 1284P 5V, 8 MHz, ATMega1284P"}, 
-              {"name": "FreakLabs Freakduino Chibi 1284P Long Range 5V, 8 MHz, ATMega1284P"}
+              {"name": "FreakLabs Freakduino 5V, 8 MHz, ATMega1284P"}, 
+              {"name": "FreakLabs FreakUSB 3.3V, 8 MHz"}, 
+              {"name": "FreakLabs Saboten 5V, 8 MHz"}, 
           ]
         }
       ],
