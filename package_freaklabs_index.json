@@ -3,7 +3,7 @@
     {
       "name": "Freaklabs",
       "maintainer": "Freaklabs",
-      "websiteURL": "http://freaklabs.org",
+      "websiteURL": "https://freaklabs.org",
       "email": "support@freaklabsstore.com",
       "help": {
         "online": "http://freaklabs.org/forum"
@@ -12,9 +12,9 @@
         {
           "name": "Freaklabs ATMega1284P Boards",
           "architecture": "avr",
-          "version": "1.0.0",
+          "version": "1.0.3",
           "category": "Freaklabs",
-          "url": "https://github.com/freaklabs/freaklabs-boards/raw/master/boards/freaklabs-1.0.0.zip",
+          "url": "https://github.com/freaklabs/freaklabs-boards/raw/master/boards/freaklabs-1.0.3.zip",
           "archiveFileName": "freaklabs-1.0.0.zip",
           "checksum": "SHA-256:e1b630f1b03d4cf9b4caf5abd99542822d4a0d1ef4a2172edbff5d2f9fdd11a5",
           "size": "1048833",
@@ -42,46 +42,6 @@
         }
       ],
       "tools": []
-    },
-    {
-    "name": "Freaklabs",
-    "maintainer": "Freaklabs",
-    "websiteURL": "http://freaklabs.org",
-    "email": "support@freaklabsstore.com",
-    "help": {
-      "online": "http://freaklabs.org/forum"
-    },
-    "platforms": [
-    {
-      "name": "Freaklabs ",
-      "architecture": "avr",
-      "version": "1.0.0",
-      "category": "Freaklabs",
-      "url": "https://adafruit.github.io/arduino-board-index/boards/arcore-1.0.0.tar.bz2",
-      "archiveFileName": "arcore-1.0.0.tar.bz2",
-      "checksum": "SHA-256:37ec329c16cc5d8f7da810665505107b24d85e6eea7e74d1677615cf7c5bcb01",
-      "size": "1135927",
-      "help": {
-        "online": "https://forums.adafruit.com"
-      },
-      "boards": [{
-        "name": "Arduino Leonardo (MIDI)"
-      }, {
-        "name": "Arduino Leonardo (MIDI, iPad compatible)"
-      }, {
-        "name": "Arduino Micro (MIDI)"
-      }],
-      "toolsDependencies": [{
-        "packager": "arduino",
-        "name": "avr-gcc",
-        "version": "4.8.1-arduino5"
-      }, {
-        "packager": "arduino",
-        "name": "avrdude",
-        "version": "6.0.1-arduino5"
-      }]
-    }],
-    "tools": []
-  }
+    }
   ]
 }
