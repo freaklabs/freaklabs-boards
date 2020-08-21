@@ -1,0 +1,2 @@
+SHA256hashoffilefreaklabs-1.0.5.zip:
+CertUtil:-hashfilecommandcompletedsuccessfully.

@@ -1,0 +1,327 @@
+menu.ver=Version
+
+##############################################################
+## Freakduino
+
+freakduino.name=Freaklabs Freakduino
+
+freakduino.upload.tool=arduino:avrdude
+freakduino.upload.protocol=arduino
+
+freakduino.bootloader.tool=arduino:avrdude
+freakduino.bootloader.unlock_bits=0x3F
+freakduino.bootloader.lock_bits=0x0F
+
+freakduino.build.f_cpu=8000000L
+freakduino.build.core=arduino:arduino
+freakduino.build.board=FREAKDUINO
+
+	## Freakduino Standard 5.0V, 8 MHz, w/ATMega328P
+	## ---------------------------------------------
+	freakduino.menu.ver.frkstd=Freakduino Standard, 5.0V, 8MHz, w/ATMega328P
+
+	freakduino.menu.ver.frkstd.upload.maximum_size=28672
+	freakduino.menu.ver.frkstd.upload.maximum_data_size=2048
+	freakduino.menu.ver.frkstd.upload.speed=57600
+
+	freakduino.menu.ver.frkstd.bootloader.low_fuses=0xE2
+	freakduino.menu.ver.frkstd.bootloader.high_fuses=0xDA
+	freakduino.menu.ver.frkstd.bootloader.extended_fuses=0xFE
+	freakduino.menu.ver.frkstd.bootloader.file=atmega/ATmegaBOOT_168_atmega328_pro_8MHz.hex
+
+	freakduino.menu.ver.frkstd.build.mcu=atmega328p
+	freakduino.menu.ver.frkstd.build.variant=freakduino
+	freakduino.menu.ver.frkstd.build.board=FREAKDUINO
+
+	## Freakduino Long Range 5.0V, 8 MHz, w/ATMega328P
+	## ---------------------------------------------
+	freakduino.menu.ver.frklr=Freakduino Long Range, 5.0V, 8MHz, w/ATMega328P
+
+	freakduino.menu.ver.frklr.upload.maximum_size=28672
+	freakduino.menu.ver.frklr.upload.maximum_data_size=2048
+	freakduino.menu.ver.frklr.upload.speed=57600
+
+	freakduino.menu.ver.frklr.bootloader.low_fuses=0xE2
+	freakduino.menu.ver.frklr.bootloader.high_fuses=0xDA
+	freakduino.menu.ver.frklr.bootloader.extended_fuses=0xFE
+	freakduino.menu.ver.frklr.bootloader.file=atmega/ATmegaBOOT_168_atmega328_pro_8MHz.hex
+
+	freakduino.menu.ver.frklr.build.mcu=atmega328p
+	freakduino.menu.ver.frklr.build.board=FREAKDUINOLR
+	freakduino.menu.ver.frklr.build.variant=freakduino-lr
+
+	## Freakduino 1284P 5.0V, 8 MHz, w/ATMega1284P
+	## ---------------------------------------------
+	freakduino.menu.ver.frk1284p=Freakduino 1284P, 5.0V, 8MHz, w/ATMega1284P
+
+	freakduino.menu.ver.frk1284p.upload.maximum_size=126976
+	freakduino.menu.ver.frk1284p.upload.maximum_data_size=16384
+	freakduino.menu.ver.frk1284p.upload.speed=57600
+
+	freakduino.menu.ver.frk1284p.bootloader.low_fuses=0xFD
+	freakduino.menu.ver.frk1284p.bootloader.high_fuses=0x9C
+	freakduino.menu.ver.frk1284p.bootloader.extended_fuses=0xFE
+	freakduino.menu.ver.frk1284p.bootloader.file=optiboot/optiboot_1284p_8MHz_57.6k.hex
+
+	freakduino.menu.ver.frk1284p.build.mcu=atmega1284p
+	freakduino.menu.ver.frk1284p.build.board=FREAKDUINO1284P
+	freakduino.menu.ver.frk1284p.build.variant=freakduino1284p
+
+
+	## Freakduino 1284P Long Range 5.0V, 8 MHz, w/ATMega1284P
+	## ---------------------------------------------
+	freakduino.menu.ver.frk1284plr=Freakduino 1284P Long Range, 5.0V, 8MHz, w/ATMega1284P
+
+	freakduino.menu.ver.frk1284plr.upload.maximum_size=126976
+	freakduino.menu.ver.frk1284plr.upload.maximum_data_size=16384
+	freakduino.menu.ver.frk1284plr.upload.speed=57600
+
+	freakduino.menu.ver.frk1284plr.bootloader.low_fuses=0xFD
+	freakduino.menu.ver.frk1284plr.bootloader.high_fuses=0x9C
+	freakduino.menu.ver.frk1284plr.bootloader.extended_fuses=0xFE
+	freakduino.menu.ver.frk1284plr.bootloader.file=optiboot/optiboot_1284p_8MHz_57.6k.hex
+
+	freakduino.menu.ver.frk1284plr.build.mcu=atmega1284p
+	freakduino.menu.ver.frk1284plr.build.board=FREAKDUINO1284PLR
+	freakduino.menu.ver.frk1284plr.build.variant=freakduino1284p-lr
+	
+###############################################################
+## FreakUSB
+
+freakusb.name=Freaklabs FreakUSB
+
+freakusb.upload.tool=arduino:avrdude
+freakusb.upload.protocol=arduino
+
+freakusb.bootloader.tool=arduino:avrdude
+freakusb.bootloader.unlock_bits=0x3F
+freakusb.bootloader.lock_bits=0x0F
+
+freakusb.build.core=arduino:arduino
+freakusb.build.board=FREAKUSB
+
+	## FreakUSB Standard 3.3V, 8 MHz, w/ATMega328P
+	## ---------------------------------------------
+	freakusb.menu.ver.frkstd=FreakUSB Standard, 3.3V, 8MHz, w/ATMega328P
+
+	freakusb.menu.ver.frkstd.upload.maximum_size=28672
+	freakusb.menu.ver.frkstd.upload.maximum_data_size=2048
+	freakusb.menu.ver.frkstd.upload.speed=57600
+
+	freakusb.menu.ver.frkstd.bootloader.low_fuses=0xE2
+	freakusb.menu.ver.frkstd.bootloader.high_fuses=0xDA
+	freakusb.menu.ver.frkstd.bootloader.extended_fuses=0xFE
+	freakusb.menu.ver.frkstd.bootloader.file=atmega/ATmegaBOOT_168_atmega328_pro_8MHz.hex
+
+	freakusb.menu.ver.frkstd.build.f_cpu=8000000L
+	freakusb.menu.ver.frkstd.build.mcu=atmega328p
+	freakusb.menu.ver.frkstd.build.variant=freakusb
+	freakusb.menu.ver.frkstd.build.board=FREAKUSB
+
+	## FreakUSB Long Range 3.3V, 8 MHz, w/ATMega328P
+	## ---------------------------------------------
+	freakusb.menu.ver.frklr=FreakUSB Long Range, 3.3V, 8MHz, w/ATMega328P
+
+	freakusb.menu.ver.frklr.upload.maximum_size=28672
+	freakusb.menu.ver.frklr.upload.maximum_data_size=2048
+	freakusb.menu.ver.frklr.upload.speed=57600
+
+	freakusb.menu.ver.frklr.bootloader.low_fuses=0xE2
+	freakusb.menu.ver.frklr.bootloader.high_fuses=0xDA
+	freakusb.menu.ver.frklr.bootloader.extended_fuses=0xFE
+	freakusb.menu.ver.frklr.bootloader.file=atmega/ATmegaBOOT_168_atmega328_pro_8MHz.hex
+
+	freakusb.menu.ver.frklr.build.f_cpu=8000000L
+	freakusb.menu.ver.frklr.build.mcu=atmega328p
+	freakusb.menu.ver.frklr.build.variant=freakusb-lr
+	freakusb.menu.ver.frklr.build.board=FREAKUSBLR
+
+	## FreakUSB 1284P 3.3V, 7.3728 MHz, w/ATMega1284P
+	## ---------------------------------------------
+	freakusb.menu.ver.frk1284p=FreakUSB 1284P, 3.3V, 7.37 MHz, w/ATMega1284P
+
+	freakusb.menu.ver.frk1284p.upload.maximum_size=126976
+	freakusb.menu.ver.frk1284p.upload.maximum_data_size=16384
+	freakusb.menu.ver.frk1284p.upload.speed=230400
+
+	freakusb.menu.ver.frk1284p.bootloader.low_fuses=0xFD
+	freakusb.menu.ver.frk1284p.bootloader.high_fuses=0x9C
+	freakusb.menu.ver.frk1284p.bootloader.extended_fuses=0xFE
+	freakusb.menu.ver.frk1284p.bootloader.file=optiboot/optiboot_atmega1284p_7MHz.hex
+
+	freakusb.menu.ver.frk1284p.build.f_cpu=7372800L
+	freakusb.menu.ver.frk1284p.build.mcu=atmega1284p
+	freakusb.menu.ver.frk1284p.build.variant=freakusb1284p
+	freakusb.menu.ver.frk1284p.build.board=FREAKUSB1284P
+
+
+	## FreakUSB 1284P Long Range 3.3V, 7.3728 MHz, w/ATMega1284P
+	## ---------------------------------------------
+	freakusb.menu.ver.frk1284plr=FreakUSB 1284P Long Range, 3.3V, 8MHz, w/ATMega1284P
+
+	freakusb.menu.ver.frk1284plr.upload.maximum_size=126976
+	freakusb.menu.ver.frk1284plr.upload.maximum_data_size=16384
+	freakusb.menu.ver.frk1284plr.upload.speed=230400
+
+	freakusb.menu.ver.frk1284plr.bootloader.low_fuses=0xFD
+	freakusb.menu.ver.frk1284plr.bootloader.high_fuses=0x9C
+	freakusb.menu.ver.frk1284plr.bootloader.extended_fuses=0xFE
+	freakusb.menu.ver.frk1284plr.bootloader.file=optiboot/optiboot_atmega1284p_7MHz.hex
+
+	freakusb.menu.ver.frk1284plr.build.f_cpu=7372800L
+	freakusb.menu.ver.frk1284plr.build.mcu=atmega1284p
+	freakusb.menu.ver.frk1284plr.build.variant=freakusb1284p-lr
+	freakusb.menu.ver.frk1284plr.build.board=FREAKUSB1284PLR
+
+##############################################################
+## Arashi Ethernet Wireless Gateway
+
+arashi.name=Freaklabs Arashi Ethernet Wireless Gateway
+
+arashi.upload.tool=arduino:avrdude
+arashi.upload.protocol=arduino
+
+arashi.bootloader.tool=arduino:avrdude
+arashi.bootloader.unlock_bits=0x3F
+arashi.bootloader.lock_bits=0x0F
+
+arashi.build.f_cpu=8000000L
+arashi.build.core=arduino:arduino
+arashi.build.board=ARASHI
+
+	## Arashi Standard 5.0V, 8 MHz, w/ATMega1284P
+	## ---------------------------------------------
+	arashi.menu.ver.arastd=Arashi Standard, 5.0V, 8MHz, w/ATMega1284P
+
+	arashi.menu.ver.arastd.upload.maximum_size=126976
+	arashi.menu.ver.arastd.upload.maximum_data_size=16384
+	arashi.menu.ver.arastd.upload.speed=57600
+
+	arashi.menu.ver.arastd.bootloader.low_fuses=0xFD
+	arashi.menu.ver.arastd.bootloader.high_fuses=0x9C
+	arashi.menu.ver.arastd.bootloader.extended_fuses=0xFE
+	arashi.menu.ver.arastd.bootloader.file=optiboot/optiboot_1284p_8MHz_57.6k.hex
+
+	arashi.menu.ver.arastd.build.mcu=atmega1284p
+	arashi.menu.ver.arastd.build.variant=arashi_enet_gw
+	arashi.menu.ver.arastd.build.board=ARASHI
+
+
+	## Freakduino Long Range 5.0V, 8 MHz, w/ATMega1284P
+	## ---------------------------------------------
+	arashi.menu.ver.arashilr=Arashi Long Range, 5.0V, 8MHz, w/ATMega1284P
+
+	arashi.menu.ver.arashilr.upload.maximum_size=126976
+	arashi.menu.ver.arashilr.upload.maximum_data_size=16384
+	arashi.menu.ver.arashilr.upload.speed=57600
+
+	arashi.menu.ver.arashilr.bootloader.low_fuses=0xFD
+	arashi.menu.ver.arashilr.bootloader.high_fuses=0x9C
+	arashi.menu.ver.arashilr.bootloader.extended_fuses=0xFE
+	arashi.menu.ver.arashilr.bootloader.file=optiboot/optiboot_1284p_8MHz_57.6k.hex
+
+	arashi.menu.ver.arashilr.build.mcu=atmega1284p
+	arashi.menu.ver.arashilr.build.variant=arashi_enet_gw-lr
+	arashi.menu.ver.arashilr.build.board=ARASHILR
+
+##############################################################
+## Saboten
+
+saboten.name=Freaklabs Saboten
+
+saboten.upload.tool=arduino:avrdude
+saboten.upload.protocol=arduino
+
+saboten.bootloader.tool=arduino:avrdude
+saboten.bootloader.unlock_bits=0x3F
+saboten.bootloader.lock_bits=0x0F
+
+#saboten.build.core=saboten
+saboten.build.core=arduino:arduino
+saboten.build.board=SABOTEN
+
+	## Saboten Long Range 3.3V, 8 MHz, w/ATMega1284P
+	## ---------------------------------------------
+	saboten.menu.ver.sbtn=Saboten Long Range, 3.3V, 8MHz, w/ATMega1284P
+
+	saboten.menu.ver.sbtn.upload.maximum_size=126976
+	saboten.menu.ver.sbtn.upload.maximum_data_size=16384
+	saboten.menu.ver.sbtn.upload.speed=57600
+
+	saboten.menu.ver.sbtn.bootloader.low_fuses=0xFD
+	saboten.menu.ver.sbtn.bootloader.high_fuses=0x9C
+	saboten.menu.ver.sbtn.bootloader.extended_fuses=0xFE
+	saboten.menu.ver.sbtn.bootloader.file=optiboot/optiboot_1284p_8MHz_57.6k.hex
+
+	saboten.menu.ver.sbtn.build.f_cpu=8000000L
+	saboten.menu.ver.sbtn.build.mcu=atmega1284p
+	saboten.menu.ver.sbtn.build.variant=saboten
+	saboten.menu.ver.sbtn.build.board=SABOTEN
+
+	## Saboten 3G GPS 3.3V, 7.3728 MHz, w/ATMega1284P
+	## ---------------------------------------------
+	saboten.menu.ver.sbtn3g=Saboten 3G GPS, 3.3V, 7.3728 MHz, w/ATMega1284P
+
+	saboten.menu.ver.sbtn3g.upload.maximum_size=126976
+	saboten.menu.ver.sbtn3g.upload.maximum_data_size=16384
+	saboten.menu.ver.sbtn3g.upload.speed=230400
+
+	saboten.menu.ver.sbtn3g.bootloader.low_fuses=0xFD
+	saboten.menu.ver.sbtn3g.bootloader.high_fuses=0x9C
+	saboten.menu.ver.sbtn3g.bootloader.extended_fuses=0xFE
+	saboten.menu.ver.sbtn3g.bootloader.file=optiboot/optiboot_1284p_8MHz_57.6k.hex
+
+	saboten.menu.ver.sbtn3g.build.f_cpu=7372800L
+	saboten.menu.ver.sbtn3g.build.mcu=atmega1284p
+	saboten.menu.ver.sbtn3g.build.variant=saboten-3g-gps
+	saboten.menu.ver.sbtn3g.build.board=SABOTEN3GGPS
+
+##############################################################
+## Illuminado System
+
+illuminado.name=Freaklabs Illuminado System
+
+illuminado.upload.tool=arduino:avrdude
+illuminado.upload.protocol=arduino
+
+illuminado.bootloader.tool=arduino:avrdude
+illuminado.bootloader.unlock_bits=0x3F
+illuminado.bootloader.lock_bits=0x0F
+
+illuminado.build.f_cpu=8000000L
+illuminado.build.core=arduino:arduino
+
+	## Illuminado EL Wire Receiver 3.3V, 8 MHz, w/ATMega328P
+	## ---------------------------------------------
+	illuminado.menu.ver.rcvr=Illuminado EL Wire Receiver
+
+	illuminado.menu.ver.rcvr.upload.maximum_size=28672
+	illuminado.menu.ver.rcvr.upload.maximum_data_size=2048
+	illuminado.menu.ver.rcvr.upload.speed=57600
+
+	illuminado.menu.ver.rcvr.bootloader.low_fuses=0xE2
+	illuminado.menu.ver.rcvr.bootloader.high_fuses=0xDA
+	illuminado.menu.ver.rcvr.bootloader.extended_fuses=0xFE
+	illuminado.menu.ver.rcvr.bootloader.file=atmega/ATmegaBOOT_168_atmega328_pro_8MHz.hex
+
+	illuminado.menu.ver.rcvr.build.mcu=atmega328p
+	illuminado.menu.ver.rcvr.build.variant=illuminado-rx
+	illuminado.menu.ver.rcvr.build.board=ILLUMINADORX
+
+	## Illuminado EL Wire Transmitter 3.3V, 7.3728 MHz, w/ATMega1284P
+	## ---------------------------------------------
+	illuminado.menu.ver.txtr=Illuminado Transmitter ATMega1284P, 8 MHz
+
+	illuminado.menu.ver.txtr.upload.maximum_size=126976
+	illuminado.menu.ver.txtr.upload.maximum_data_size=16384
+	illuminado.menu.ver.txtr.upload.speed=230400
+
+	illuminado.menu.ver.txtr.bootloader.low_fuses=0xFD
+	illuminado.menu.ver.txtr.bootloader.high_fuses=0x9C
+	illuminado.menu.ver.txtr.bootloader.extended_fuses=0xFE
+	illuminado.menu.ver.txtr.bootloader.file=optiboot/optiboot_atmega1284p_7MHz.hex
+
+	illuminado.menu.ver.txtr.build.core=illuminado
+	illuminado.menu.ver.txtr.build.mcu=atmega1284p
+	illuminado.menu.ver.txtr.build.variant=illuminado-tx
+	illuminado.menu.ver.txtr.build.board=ILLUMINADOTX

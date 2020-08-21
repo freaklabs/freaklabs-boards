@@ -12,12 +12,12 @@
         {
           "name": "Freaklabs ATMega1284P Boards",
           "architecture": "avr",
-          "version": "1.0.3",
+          "version": "1.0.5",
           "category": "Freaklabs",
-          "url": "https://github.com/freaklabs/freaklabs-boards/raw/master/boards/freaklabs-1.0.3.zip",
-          "archiveFileName": "freaklabs-1.0.3.zip",
-          "checksum": "SHA-256:b4f34723697598ca0b762e9bbbad925b18da5e9bd6a4f332139b780ab6f880f1",
-          "size": "1155349",
+          "url": "https://github.com/freaklabs/freaklabs-boards/raw/master/boards/freaklabs-1.0.5.zip",
+          "archiveFileName": "freaklabs-1.0.5.zip",
+          "checksum": "SHA-256:e491a830dbb607715f6476a237f18ccfc881bab5368559f64d7bc3bca84e360f",
+          "size": "1151464",
           "boards": [
               {"name": "FreakLabs Saboten Long Range 3.3V, 8 MHz, ATMega1284P"}, 
               {"name": "FreakLabs FreakUSB-1284P 3.3V, 8 MHz, ATMega1284P"}, 
