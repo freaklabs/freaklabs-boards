@@ -21,7 +21,7 @@
           "boards": [
               {"name": "FreakLabs Freakduino 5V, 8 MHz, ATMega1284P"}, 
               {"name": "FreakLabs FreakUSB 3.3V, 8 MHz"}, 
-              {"name": "FreakLabs Saboten 5V, 8 MHz"}, 
+              {"name": "FreakLabs Saboten 5V, 8 MHz"}
           ]
         }
       ],
