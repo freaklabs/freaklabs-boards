@@ -15,9 +15,9 @@
           "version": "1.0.3",
           "category": "Freaklabs",
           "url": "https://github.com/freaklabs/freaklabs-boards/raw/master/boards/freaklabs-1.0.3.zip",
-          "archiveFileName": "freaklabs-1.0.0.zip",
-          "checksum": "SHA-256:e1b630f1b03d4cf9b4caf5abd99542822d4a0d1ef4a2172edbff5d2f9fdd11a5",
-          "size": "1048833",
+          "archiveFileName": "freaklabs-1.0.3.zip",
+          "checksum": "SHA-256:b4f34723697598ca0b762e9bbbad925b18da5e9bd6a4f332139b780ab6f880f1",
+          "size": "1155349",
           "boards": [
               {"name": "FreakLabs Saboten Long Range 3.3V, 8 MHz, ATMega1284P"}, 
               {"name": "FreakLabs FreakUSB-1284P 3.3V, 8 MHz, ATMega1284P"}, 
