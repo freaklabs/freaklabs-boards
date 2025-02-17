@@ -14,10 +14,10 @@
           "architecture": "avr",
           "version": "1.0.5",
           "category": "Freaklabs",
-          "url": "https://github.com/freaklabs/freaklabs-boards/raw/master/boards/freaklabs-1.0.5.zip",
+          "url": "https://github.com/freaklabs/freaklabs-boards/raw/master/boards/freaklabs-1.0.6.zip",
           "archiveFileName": "freaklabs-1.0.5.zip",
-          "checksum": "SHA-256:e491a830dbb607715f6476a237f18ccfc881bab5368559f64d7bc3bca84e360f",
-          "size": "1151464",
+          "checksum": "SHA-256:7a38c552a49434b6f3addbdff6bc984e85c854761c3f46697b0c2c7404ff8e74",
+          "size": "1153802",
           "boards": [
               {"name": "FreakLabs Freakduino 5V, 8 MHz, ATMega1284P"}, 
               {"name": "FreakLabs FreakUSB 3.3V, 8 MHz"}, 

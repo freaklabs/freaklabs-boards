@@ -1,2 +1,6 @@
-SHA256hashoffilefreaklabs-1.0.5.zip:
-CertUtil:-hashfilecommandcompletedsuccessfully.
+certutil -hashfile FILENAME SHA256
+
+v1.0.6
+7a38c552a49434b6f3addbdff6bc984e85c854761c3f46697b0c2c7404ff8e74
+1153802
+
